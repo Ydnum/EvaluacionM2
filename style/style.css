@@ -1,0 +1,38 @@
+/*CSS RESET*/
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+body {
+    background-image: url("../img/ciberseguridad.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#btn_amenazas {
+    padding-left: 11px;
+    padding-right: 11px;
+}
+
+#modal_consejos{
+    display: none;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(100,100,100,0.5);
+}
+
+#modal_amenazas{
+    display: none;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(100,100,100,0.5);
+}
+
+#modal_inicio{
+    display: none;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(100,100,100,0.5);
+}

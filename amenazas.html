@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amenazas Comunes</title>
+  <link rel="stylesheet" href="style/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Ciberseguridad</a>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="amenazas.html">Amenazas Comunes</a></li>
+          <li class="nav-item"><a class="nav-link" href="consejos.html">Consejos de Seguridad</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main>
+  <section class="container mt-4">
+    <h2 class="text-center mb-4">Amenazas Cibernéticas Frecuentes</h2>
+
+    <div class="row">
+      <div class="col-md-6 mb-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Phishing</h5>
+            <p class="card-text">Técnicas para engañar a los usuarios y obtener información confidencial como contraseñas o datos bancarios.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Agrega tarjetas similares para Ransomware, Malware y DDoS -->
+    </div>
+
+    <div class="accordion mt-4" id="ejemplosAmenazas">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+            Caso Real de Phishing
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#ejemplosAmenazas">
+          <div class="accordion-body">
+            En 2020, miles de usuarios fueron víctimas de correos falsos que suplantaban a bancos y plataformas conocidas.
+          </div>
+        </div>
+      </div>
+      <!-- Más acordeones para otros casos -->
+    </div>
+  </section>
+</main>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</html>
